@@ -46,7 +46,7 @@ function sendMessage() {
 
 // Function to fetch the bot's response from the server
 function fetchBotResponse(formData) {
-    fetch("ai-model-1.vercel.app/get", {
+    fetch("https://ai-model-1.vercel.app//get", {
         method: "POST",
         body: formData,
     })
